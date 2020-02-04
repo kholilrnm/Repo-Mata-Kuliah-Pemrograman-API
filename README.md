@@ -13,9 +13,4 @@ Yang Diampu Oleh :
 </p>
 <br>
 
-## Cara Menjalankan
-- Install MS.Visual Basic 6.0
-- Clone Repo
-- Lets Run + Code
-
 ## Dont Forget to Star And Follow !, Thanks
