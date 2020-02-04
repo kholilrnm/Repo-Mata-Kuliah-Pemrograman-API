@@ -6,7 +6,7 @@
 ## TUGAS 1 - CALC APPS - BUILD OF SHAPE
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
- * Rizky Parlika,. S.Kom,
+ * Rizky Parlika,. S.Kom., M.Kom.
 
 <br>
 <p align="center">
