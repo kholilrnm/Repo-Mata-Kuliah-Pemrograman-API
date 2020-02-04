@@ -9,7 +9,7 @@ Yang Diampu Oleh :
 
 <br>
 <p align="center">
-        <img src="/Tugas 1 API/Gambar_SS/api.png" width="600" height="300">
+        <img src="/Tugas 1 API/Gambar_SS/hal_utama.JPG" width="600" height="300">
 </p>
 <br>
 
