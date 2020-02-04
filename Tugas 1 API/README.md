@@ -37,5 +37,6 @@ Halaman Perhitungan Aplikasi
    - Install MS.Visual Basic 6.0
    - Clone Repo
    - Lets Run Dude!
+   - If U Want To Pull Request, Its Very Welcome
 
-## Dont Forget to Star And Follow !, Thanks
+## Dont Forget to Star And Follow !, Thanks 
