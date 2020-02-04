@@ -3,19 +3,30 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
+## TUGAS 1 - CALC APPS - BUILD OF SHAPE
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
  * Rizky Parlika,. S.Kom,
 
 <br>
 <p align="center">
-        <img src="/Tugas 1 API/Gambar_SS/hal_utama.JPG" width="600" height="300">
+        <img src="/Tugas 1 API/Gambar_SS/hal_utama.JPG" width="600" height="350">
+        Halaman Utama Aplikasi
 </p>
 <br>
 
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_tentang.PNG" width="600" height="350">
+        Halaman Tentang Aplikasi
+</p>
+<br>
+
+
+<br>
+<p align="center">
+        <img src="/Tugas 1 API/Gambar_SS/hal_hitung.PNG" width="600" height="350">
+        Halaman Perhitungan Aplikasi
 </p>
 <br>
 
