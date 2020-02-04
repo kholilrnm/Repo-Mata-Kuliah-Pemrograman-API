@@ -13,6 +13,12 @@ Yang Diampu Oleh :
 </p>
 <br>
 
+<br>
+<p align="center">
+        <img src="/Tugas 1 API/Gambar_SS/hal_tentang.PNG" width="600" height="350">
+</p>
+<br>
+
 ## Cara Menjalankan
    - Install MS.Visual Basic 6.0
    - Clone Repo
