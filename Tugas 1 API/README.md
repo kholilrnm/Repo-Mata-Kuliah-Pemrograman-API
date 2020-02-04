@@ -12,30 +12,22 @@ Yang Diampu Oleh :
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_utama.JPG" width="600" height="350">
 </p>
-<br>
 <p align="center">
 Halaman Utama Aplikasi
 </p>
 <br>
-
-
-
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_tentang.PNG" width="600" height="350">
 </p>
-<br>
 <p align="center">
 Halaman Tentang Aplikasi
 </p>
 <br>
-
-
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_hitung.PNG" width="600" height="350">
 </p>
-<br>
 <p align="center">
 Halaman Perhitungan Aplikasi
 </p>
