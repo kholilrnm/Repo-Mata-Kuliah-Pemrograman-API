@@ -3,31 +3,19 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
-## Riferr
-Proyek akhir mata kuliah Pemrograman Web
+## Repository Mata Kuliah Pemrograman API
+Yang Diampu Oleh : 
+ * Rizky Parlika,. S.Kom,
 
 <br>
 <p align="center">
-        <img src="/public/images/app-ss.png" width="600" height="800">
+        <img src="/Gambar_SS/hal_utama.JPG" width="600" height="800">
 </p>
 <br>
 
-## Kontributor
-- Amir Muhammad Hakim (17081010051)
-- Fajar Andhika Putra (17081010054)
-- Kholilul Rachman N.M (17081010055)
-- Boy Diego Lumwartono (17081010057)
-- Rahayu Prabawati Amaliyah (17081010058)
-
-## Tools
-| Bagian | Tool(s) yang digunakan |
-| --- | --- |
-| Font-End | HTML, CSS, JavaScript |
-| Back-End | NodeJS |
-| Database | MySQL |
-
 ## Cara Menjalankan
-- Install NodeJS
-- Buka folder project di Command-line & input command 'npm install' (untuk menginstall packages yang diperlukan pada project ini)
-- Input command 'nodemon start' (untuk menjalankan server)
-- Buka 'localhost:3000' di browser
+- Install MS.Visual Basic 6.0
+- Clone Repo
+- Lets Run + Code
+
+## Dont Forget to Star And Follow !, Thanks
