@@ -11,14 +11,22 @@ Yang Diampu Oleh :
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_utama.JPG" width="600" height="350">
-        Halaman Utama Aplikasi
 </p>
 <br>
+<p align="center">
+Halaman Utama Aplikasi
+</p>
+<br>
+
+
 
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_tentang.PNG" width="600" height="350">
-        Halaman Tentang Aplikasi
+</p>
+<br>
+<p align="center">
+Halaman Tentang Aplikasi
 </p>
 <br>
 
@@ -26,7 +34,10 @@ Yang Diampu Oleh :
 <br>
 <p align="center">
         <img src="/Tugas 1 API/Gambar_SS/hal_hitung.PNG" width="600" height="350">
-        Halaman Perhitungan Aplikasi
+</p>
+<br>
+<p align="center">
+Halaman Perhitungan Aplikasi
 </p>
 <br>
 
