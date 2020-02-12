@@ -1,4 +1,5 @@
 VERSION 5.00
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Begin VB.Form menuBalok 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "menuBalok"
@@ -14,25 +15,6 @@ Begin VB.Form menuBalok
    ScaleHeight     =   6450
    ScaleWidth      =   11505
    StartUpPosition =   2  'CenterScreen
-   Begin VB.CommandButton backBtn 
-      BackColor       =   &H0080FFFF&
-      Caption         =   "Back"
-      BeginProperty Font 
-         Name            =   "Comic Sans MS"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   450
-      Left            =   120
-      Style           =   1  'Graphical
-      TabIndex        =   8
-      Top             =   28
-      Width           =   960
-   End
    Begin VB.TextBox t_balok 
       BeginProperty Font 
          Name            =   "MS Sans Serif"
@@ -175,12 +157,59 @@ Begin VB.Form menuBalok
       Top             =   5090
       Width           =   2000
    End
+   Begin TabDlg.SSTab SSTab1 
+      Height          =   540
+      Left            =   -50
+      TabIndex        =   8
+      Top             =   0
+      Width           =   11590
+      _ExtentX        =   20426
+      _ExtentY        =   953
+      _Version        =   393216
+      MousePointer    =   1
+      Tabs            =   8
+      TabsPerRow      =   8
+      TabHeight       =   520
+      TabCaption(0)   =   "Menu Balok"
+      TabPicture(0)   =   "menuBalok.frx":3741E
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).ControlCount=   0
+      TabCaption(1)   =   "Menu Bola"
+      TabPicture(1)   =   "menuBalok.frx":3743A
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).ControlCount=   0
+      TabCaption(2)   =   "Menu Kerucut"
+      TabPicture(2)   =   "menuBalok.frx":37456
+      Tab(2).ControlEnabled=   0   'False
+      Tab(2).ControlCount=   0
+      TabCaption(3)   =   "Menu Kubus"
+      TabPicture(3)   =   "menuBalok.frx":37472
+      Tab(3).ControlEnabled=   0   'False
+      Tab(3).ControlCount=   0
+      TabCaption(4)   =   "Menu Limas 3"
+      TabPicture(4)   =   "menuBalok.frx":3748E
+      Tab(4).ControlEnabled=   0   'False
+      Tab(4).ControlCount=   0
+      TabCaption(5)   =   "Menu Limas 4"
+      TabPicture(5)   =   "menuBalok.frx":374AA
+      Tab(5).ControlEnabled=   0   'False
+      Tab(5).ControlCount=   0
+      TabCaption(6)   =   "Menu Prisma"
+      TabPicture(6)   =   "menuBalok.frx":374C6
+      Tab(6).ControlEnabled=   0   'False
+      Tab(6).ControlCount=   0
+      TabCaption(7)   =   "Menu Tabung"
+      TabPicture(7)   =   "menuBalok.frx":374E2
+      Tab(7).ControlEnabled=   0   'False
+      Tab(7).ControlCount=   0
+   End
 End
 Attribute VB_Name = "menuBalok"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Private Sub backBtn_Click()
     Me.Hide
     menuPilihan.Show
@@ -259,6 +288,7 @@ Private Sub Form_QueryUnload(Cancel As Integer, unloadMode As Integer)
             Cancel = True
             End
     End Select
+    SSTab1.Tab = Null
 End Sub
 
 Private Sub p_balok_Change()
@@ -285,6 +315,31 @@ If IsNumeric(textval) Then
     l_balok.Text = CStr(numval)
   End If
   
+End Sub
+
+Private Sub Form_Load()
+    SSTab1.Tab = 0
+End Sub
+
+Private Sub SSTab1_Click(PreviousTab As Integer)
+Select Case SSTab1.Tab
+Case 0
+menuBalok.Show
+Case 1
+menuBola.Show
+Case 2
+menuKerucut.Show
+Case 3
+menuKubus.Show
+Case 4
+menuLimas3.Show
+Case 5
+menuLimas4.Show
+Case 6
+menuPrismaSeg.Show
+Case 7
+menuTabung.Show
+End Select
 End Sub
 
 Private Sub t_balok_Change()

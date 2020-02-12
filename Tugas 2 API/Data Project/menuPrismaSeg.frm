@@ -1,4 +1,5 @@
 VERSION 5.00
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Begin VB.Form menuPrismaSeg 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "Prism Menu"
@@ -15,25 +16,6 @@ Begin VB.Form menuPrismaSeg
    ScaleMode       =   0  'User
    ScaleWidth      =   11656.98
    StartUpPosition =   2  'CenterScreen
-   Begin VB.CommandButton backBtn 
-      BackColor       =   &H0080FFFF&
-      Caption         =   "Back"
-      BeginProperty Font 
-         Name            =   "Comic Sans MS"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   440
-      Left            =   118
-      Style           =   1  'Graphical
-      TabIndex        =   6
-      Top             =   27
-      Width           =   960
-   End
    Begin VB.TextBox hasil_prism 
       BeginProperty Font 
          Name            =   "MS Sans Serif"
@@ -138,6 +120,53 @@ Begin VB.Form menuPrismaSeg
       Top             =   2950
       Width           =   1974
    End
+   Begin TabDlg.SSTab SSTab1 
+      Height          =   540
+      Left            =   0
+      TabIndex        =   6
+      Top             =   0
+      Width           =   11590
+      _ExtentX        =   20452
+      _ExtentY        =   953
+      _Version        =   393216
+      MousePointer    =   1
+      Tabs            =   8
+      Tab             =   6
+      TabsPerRow      =   8
+      TabHeight       =   520
+      TabCaption(0)   =   "Menu Balok"
+      TabPicture(0)   =   "menuPrismaSeg.frx":352D5
+      Tab(0).ControlEnabled=   0   'False
+      Tab(0).ControlCount=   0
+      TabCaption(1)   =   "Menu Bola"
+      TabPicture(1)   =   "menuPrismaSeg.frx":352F1
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).ControlCount=   0
+      TabCaption(2)   =   "Menu Kerucut"
+      TabPicture(2)   =   "menuPrismaSeg.frx":3530D
+      Tab(2).ControlEnabled=   0   'False
+      Tab(2).ControlCount=   0
+      TabCaption(3)   =   "Menu Kubus"
+      TabPicture(3)   =   "menuPrismaSeg.frx":35329
+      Tab(3).ControlEnabled=   0   'False
+      Tab(3).ControlCount=   0
+      TabCaption(4)   =   "Menu Limas 3"
+      TabPicture(4)   =   "menuPrismaSeg.frx":35345
+      Tab(4).ControlEnabled=   0   'False
+      Tab(4).ControlCount=   0
+      TabCaption(5)   =   "Menu Limas 4"
+      TabPicture(5)   =   "menuPrismaSeg.frx":35361
+      Tab(5).ControlEnabled=   0   'False
+      Tab(5).ControlCount=   0
+      TabCaption(6)   =   "Menu Prisma"
+      TabPicture(6)   =   "menuPrismaSeg.frx":3537D
+      Tab(6).ControlEnabled=   -1  'True
+      Tab(6).ControlCount=   0
+      TabCaption(7)   =   "Menu Tabung"
+      TabPicture(7)   =   "menuPrismaSeg.frx":35399
+      Tab(7).ControlEnabled=   0   'False
+      Tab(7).ControlCount=   0
+   End
 End
 Attribute VB_Name = "menuPrismaSeg"
 Attribute VB_GlobalNameSpace = False
@@ -204,6 +233,30 @@ If IsNumeric(textval) Then
     p_prism.Text = CStr(numval)
   End If
   
+End Sub
+
+Private Sub Form_Load()
+    SSTab1.Tab = 6
+End Sub
+Private Sub SSTab1_Click(PreviousTab As Integer)
+Select Case SSTab1.Tab
+Case 0
+menuBalok.Show
+Case 1
+menuBola.Show
+Case 2
+menuKerucut.Show
+Case 3
+menuKubus.Show
+Case 4
+menuLimas3.Show
+Case 5
+menuLimas4.Show
+Case 6
+menuPrismaSeg.Show
+Case 7
+menuTabung.Show
+End Select
 End Sub
 
 Private Sub t_alas_prism_Change()

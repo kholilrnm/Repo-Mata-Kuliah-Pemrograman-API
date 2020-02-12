@@ -15,6 +15,25 @@ Begin VB.Form menuUtama
    ScaleHeight     =   6450
    ScaleWidth      =   11505
    StartUpPosition =   2  'CenterScreen
+   Begin VB.CommandButton btnMainMenu 
+      BackColor       =   &H000080FF&
+      Caption         =   "Main Menu"
+      BeginProperty Font 
+         Name            =   "Comic Sans MS"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   495
+      Left            =   3670
+      Style           =   1  'Graphical
+      TabIndex        =   2
+      Top             =   4800
+      Width           =   1215
+   End
    Begin VB.CommandButton btnTentang 
       BackColor       =   &H000080FF&
       Caption         =   "About"
@@ -30,7 +49,7 @@ Begin VB.Form menuUtama
       Height          =   495
       Left            =   5160
       Style           =   1  'Graphical
-      TabIndex        =   2
+      TabIndex        =   1
       Top             =   4800
       Width           =   1215
    End
@@ -48,25 +67,6 @@ Begin VB.Form menuUtama
       EndProperty
       Height          =   495
       Left            =   6720
-      Style           =   1  'Graphical
-      TabIndex        =   1
-      Top             =   4800
-      Width           =   1215
-   End
-   Begin VB.CommandButton btnMainMenu 
-      BackColor       =   &H000080FF&
-      Caption         =   "Main Menu"
-      BeginProperty Font 
-         Name            =   "Comic Sans MS"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   495
-      Left            =   3670
       Style           =   1  'Graphical
       TabIndex        =   0
       Top             =   4800
@@ -89,7 +89,7 @@ End Sub
 
 Private Sub btnMainMenu_Click()
     Me.Hide
-    menuPilihan.Show
+    menuBalok.Show
     
 End Sub
 
@@ -97,6 +97,11 @@ Private Sub btnTentang_Click()
     Me.Hide
     menuTentang.Show
     
+End Sub
+
+Private Sub Command1_Click()
+menuPilihan.Show
+
 End Sub
 
 Private Sub Form_QueryUnload(Cancel As Integer, unloadMode As Integer)
@@ -108,5 +113,10 @@ Private Sub Form_QueryUnload(Cancel As Integer, unloadMode As Integer)
             Cancel = True
             End
     End Select
+End Sub
+
+Private Sub Frame1_DragDrop(Source As Control, X As Single, Y As Single)
+menuPilihan.Visible = True
+
 End Sub
 
