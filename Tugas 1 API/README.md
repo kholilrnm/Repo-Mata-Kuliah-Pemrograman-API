@@ -5,6 +5,7 @@
 
 ## TUGAS 1 - CALC APPS - BUILD OF SHAPE
 - Membuat Calculator Bangun Ruang VB 6.0
+- Decompiler VB
 
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
