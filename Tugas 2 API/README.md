@@ -4,7 +4,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
 ## TUGAS 2 - CALC APPS - BUILD OF SHAPE
-- OOP Visual Basic 6.0 + SSTab Menu
+- OOP Visual Basic 6.0
+- SSTab Menu
 
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
@@ -23,7 +24,7 @@ Halaman Utama Aplikasi
         <img src="/Tugas 2 API/Gambar_SS/2.PNG" width="600" height="350">
 </p>
 <p align="center">
-Halaman Tab Menu Aplikasi
+Halaman Tab Menu 1 Aplikasi
 </p>
 <br>
 <br>
@@ -31,7 +32,7 @@ Halaman Tab Menu Aplikasi
         <img src="/Tugas 2 API/Gambar_SS/3.PNG" width="600" height="350">
 </p>
 <p align="center">
-Halaman Perhitungan Aplikasi
+Halaman Tab Menu 2 Aplikasi
 </p>
 <br>
 

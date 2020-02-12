@@ -4,6 +4,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
 ## TUGAS 1 - CALC APPS - BUILD OF SHAPE
+- Membuat Calculator Bangun Ruang VB 6.0
+
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
  * Rizky Parlika,. S.Kom., M.Kom.
