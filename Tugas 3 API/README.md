@@ -3,9 +3,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
-## TUGAS 2 - CALC APPS - BUILD OF SHAPE
-- OOP Visual Basic 6.0
-- SSTab Menu
+## TUGAS 3 - API REGIONS - WINDOWS
+- API Regions
 
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
@@ -13,27 +12,12 @@ Yang Diampu Oleh :
 
 <br>
 <p align="center">
-        <img src="/Tugas 2 API/Gambar_SS/1.PNG" width="600" height="350">
+        <img src="/Tugas 3 API/Gambar_SS/tugas3.PNG" width="600" height="350">
 </p>
 <p align="center">
 Halaman Utama Aplikasi
 </p>
 <br>
-<br>
-<p align="center">
-        <img src="/Tugas 2 API/Gambar_SS/2.PNG" width="600" height="350">
-</p>
-<p align="center">
-Halaman Tab Menu 1 Aplikasi
-</p>
-<br>
-<br>
-<p align="center">
-        <img src="/Tugas 2 API/Gambar_SS/3.PNG" width="600" height="350">
-</p>
-<p align="center">
-Halaman Tab Menu 2 Aplikasi
-</p>
 <br>
 
 ## Cara Menjalankan
