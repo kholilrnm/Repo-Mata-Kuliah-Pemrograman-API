@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
 ## TUGAS 3 - API REGIONS - WINDOWS
-- API Regions
+- Basic API Regions
 
 ## Repository Mata Kuliah Pemrograman API
 Yang Diampu Oleh : 
