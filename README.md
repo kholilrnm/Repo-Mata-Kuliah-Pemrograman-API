@@ -4,8 +4,10 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/kholilboy/Repo-Mata-Kuliah-Pemrograman-API)
 
 ## Repository Mata Kuliah Pemrograman API
-Yang Diampu Oleh : 
- * Rizky Parlika,. S.Kom,
+#### Kholilul Rachman NM (17081010055)
+Ini adalah kumpulan source code mata kuliah pemrograman web yang diampu oleh : 
+
+<a href="#">Bapak Rizky Parlika, S.Kom, M.Kom. </a>
 
 <br>
 <p align="center">
@@ -13,4 +15,4 @@ Yang Diampu Oleh :
 </p>
 <br>
 
-## Dont Forget to Star And Follow !, Thanks
+
