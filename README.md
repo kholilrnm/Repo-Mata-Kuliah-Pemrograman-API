@@ -5,7 +5,7 @@
 
 ## Repository Mata Kuliah Pemrograman API
 #### Kholilul Rachman NM (17081010055)
-Ini adalah kumpulan source code mata kuliah pemrograman web yang diampu oleh : 
+Ini adalah kumpulan source code mata kuliah pemrograman api yang diampu oleh : 
 
 <a href="#">Bapak Rizky Parlika, S.Kom, M.Kom. </a>
 
