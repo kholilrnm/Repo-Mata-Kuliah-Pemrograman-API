@@ -14,5 +14,3 @@ Ini adalah kumpulan source code mata kuliah pemrograman web yang diampu oleh :
         <img src="/Tugas 1 API/Gambar_SS/api.png" width="600" height="300">
 </p>
 <br>
-
-
